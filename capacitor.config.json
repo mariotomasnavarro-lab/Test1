@@ -1,0 +1,9 @@
+{
+  "appId": "com.onde.nam.app",
+  "appName": "ONDE",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "automatic",
+    "allowsLinkPreview": true
+  }
+}

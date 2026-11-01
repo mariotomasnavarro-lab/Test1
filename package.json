@@ -1,0 +1,19 @@
+{
+  "name": "onde-ios-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ONDE — Capacitor iOS music discovery app",
+  "scripts": {
+    "web:check": "node scripts/check-web.mjs",
+    "ios:setup": "node scripts/setup-ios.mjs",
+    "ios:sync": "cap sync ios",
+    "ios:open": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.2.1",
+    "@capacitor/ios": "^6.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.1"
+  }
+}
